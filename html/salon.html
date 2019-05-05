@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Heaven Hotel</title> 
+		<link rel="stylesheet" href="../Style/salon-style.css">
+		<link rel="icon" href="../Images/icon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="../JavaScript/SalonScript.js"></script>
+	</head>
+	<body>
+	<!-- The blured image from the above of the page-->
+		<div class="bg-image"></div>
+		<div class="bg-text">
+			<h2>Heaven Spa & Care Salon</h2>
+			<h1 style="font-size:50px">Welcome to our Spa Salon</h1>
+			<p>Your beauty adventure starts right here</p>
+		</div>
+		<!--Navigation bar	-->
+		<div id="navbar">
+			<a class="logo" href="../index.html"><b>Heaven Hotel</b></a>
+			<a href="rooms.html"><b>ROOMS</b></a>
+			<a href="restaurant.html"><b>RESTAURANT</b></a>
+			<a href="salon.html"><b>SPA & CARE</b></a>
+			<a href="contact.html"><b>CONTACTS</b></a>
+			<a href="../xml/SourceCatalogues.xml"><b>CATALOGUES</b></a>
+		</div>
+		<div class="clearfix">
+			<!-- The image from the left of the text-->
+			<p><img class="imgaside" src="../Images/salon2.jpg" alt="salon" >
+			<span style="font-size:30px"><b>Where Beauty Meets Relaxation</b></span><br><br><br>
+			Our Spa Salon has been servicing our community and beyond for over 30 years. Established 
+			in 1988, Visions Spa Salon has raised the standards for salons and spas through the decades.
+			Our tradition of excellence through diligent education and training has made Visions Spa Salon 
+			nationally awarded as one of the premier spa salons in our country.<br><br>
+			<!-- The button that opens a form when is clicked-->
+			<button type="submit" class="btn open-button" onclick="openForm()">Make an appointment</button></p>
+			<!-- The form used to make an appointment-->
+			<div class="form-popup" id="myForm">
+				  <form action="/action_page.php" class="form-container">
+					<h3>What would you like to reserve</h3>
+					<input type="radio" name="Reservation" value="Room Reservation" checked>Room Reservation<br>
+					<input type="radio" name="Reservation" value="Table Reservation">Table Reservation<br>
+					<input type="radio" name="Reservation" value="Spa Salon Visit">Spa Salon Visit
+					<h3>When would you like to reserve</h3>
+					<input type="text" name="Date" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required> 
+					<h3>At what time?</h3>
+					<input type="text" name="Time" placeholder="hh/mm" pattern="[0-9]{2}/[0-9]{2}" required> 
+					<h3>Let us know who you are</h3>
+					<input type="text" name="Nmae" size="100" placeholder="Name, Surname" required><br>
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  </form>
+				</div>
+		</div>
+		<br>
+		<hr>
+		<div class="clearfix">
+		<!-- The image from the right of the text-->
+			<p><img class="imgasideleft" src="../Images/salon3.jpeg" alt="Spa and Care" >
+			<span style="font-size:30px"><b>Where Beauty Meets Relaxation</b></span><br><br><br>
+			Our Spa Salon has been servicing our community and beyond for over 30 years. Established 
+			in 1988, Visions Spa Salon has raised the standards for salons and spas through the decades.
+			Our tradition of excellence through diligent education and training has made Visions Spa Salon 
+			nationally awarded as one of the premier spa salons in our country.<br><br>
+			<!-- The button that is used to open a form-->
+			<button type="submit" class="btn open-button" onclick="openForm()">Make an appointment</button></p>
+			<!-- The form to be colpeted for making an appointment-->
+			<div class="form-popup" id="myForm2">
+				  <form action="/action_page.php" class="form-container">
+					<h3>What would you like to reserve</h3>
+					
+					<input type="radio" name="Reservation" value="Room Reservation" checked>Room Reservation<br>
+					<input type="radio" name="Reservation" value="Table Reservation">Table Reservation<br>
+					<input type="radio" name="Reservation" value="Spa Salon Visit">Spa Salon Visit
+					<h3>When would you like to reserve</h3>
+					<input type="text" name="Date" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required> 
+					<h3>At what time?</h3>
+					<input type="text" name="Time" placeholder="hh/mm" pattern="[0-9]{2}/[0-9]{2}" required> 
+					<h3>Let us know who you are</h3>
+					<input type="text" name="Nmae" size="100" placeholder="Name, Surname" required><br>
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  </form>
+				</div>
+		</div>
+		<br>
+		<hr>
+		<div class="clearfix">
+		<!-- The image from the left of the text-->
+			<p><img class="imgaside" src="../Images/salon4.jpg" alt="Spa and Care" >
+			<span style="font-size:30px"><b>Where Beauty Meets Relaxation</b></span><br><br><br>
+			Our Spa Salon has been servicing our community and beyond for over 30 years. Established 
+			in 1988, Visions Spa Salon has raised the standards for salons and spas through the decades.
+			Our tradition of excellence through diligent education and training has made Visions Spa Salon 
+			nationally awarded as one of the premier spa salons in our country.<br><br>
+			<!-- The button that is used to open a form-->
+			<button type="submit" class="btn open-button" onclick="openForm()">Make an appointment</button></p>
+			<!-- The form to be colpeted for making an appointment-->
+			<div class="form-popup" id="myForm3">
+				  <form action="/action_page.php" class="form-container">
+					<h3>What would you like to reserve</h3>
+					
+					<input type="radio" name="Reservation" value="Room Reservation" checked>Room Reservation<br>
+					<input type="radio" name="Reservation" value="Table Reservation">Table Reservation<br>
+					<input type="radio" name="Reservation" value="Spa Salon Visit">Spa Salon Visit
+					<h3>When would you like to reserve</h3>
+					<input type="text" name="Date" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required> 
+					<h3>At what time?</h3>
+					<input type="text" name="Time" placeholder="hh/mm" pattern="[0-9]{2}/[0-9]{2}" required> 
+					<h3>Let us know who you are</h3>
+					<input type="text" name="Nmae" size="100" placeholder="Name, Surname" required><br>
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  </form>
+				</div>
+		</div>
+		<!-- Java script used for opening the form by cliking the button-->
+		<script>
+			function openForm() {
+				document.getElementById("myForm").style.display = "block";
+			}
+
+			function closeForm() {
+				document.getElementById("myForm").style.display = "none";
+			}
+		</script>
+	<!-- The footer with the icons-->
+	<footer>
+		<span><b>@2018 Heaven Hotel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>All rigths reserved</span>
+		<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+	<a href="https://www.youtube.com/"  target="_blank" class="fa fa-youtube"></a>
+	<a href="https://www.pinterest.es/" target="_blank" class="fa fa-pinterest"></a>
+	<a href="https://www.instagram.com/?hl=ro" target="_blank" class="fa fa-instagram"></a>
+	</footer>
+	</body>

@@ -1,0 +1,46 @@
+	<!ELEMENT heavenHotel (VAT, roomRent, restaurant, spaCare)>
+	<!ELEMENT VAT (#PCDATA)>
+	<!--RoomRent Service-->
+	<!ELEMENT roomRent (rooms+)>
+	<!ELEMENT cityTax (#PCDATA)>
+	<!ELEMENT rooms (room+)>
+	<!ATTLIST rooms  type (luxury | standard | economy) #REQUIRED >
+	<!ELEMENT room (bedroom, kitchen, airConditioning, roomsService, price, discount?,imagen)>
+	<!ATTLIST room  id (president | king | business | single | double |triple) #REQUIRED >
+	<!ELEMENT bedroom (#PCDATA)>
+	<!ELEMENT kitchen (#PCDATA)>
+	<!ELEMENT airConditioning EMPTY>
+	<!ATTLIST airConditioning  id (Yes| No) #REQUIRED >
+	<!ELEMENT roomsService (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT discount (#PCDATA)>
+	<!ELEMENT imagen (#PCDATA)>
+	<!ATTLIST imagen pagina (www.nh-hoteles.es | www.jamieoliver.com | www.visionsspasalon.com) #REQUIRED >
+	<!--restaurant products-->
+	<!ELEMENT restaurant (ChickenMenu, VeganMenu, Salads, Desserts)>
+	<!--ChickenMenu-->
+	<!ELEMENT ChickenMenu (dish+)>
+	<!ELEMENT dish (name, description, category, calories, preparingTime, ingredients, price, imagen)>
+	<!ATTLIST dish  cod (CM1 | CM2 | CM3 | CM4 | CM5 | CM6 | CM7 | CM8 |VG1 | VG2 | VG3 | VG4 |SLD1 | SLD2 | SLD3 | SLD4 | DST1 | DST2 | DST3 | DST4) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT calories (#PCDATA)>
+	<!ELEMENT preparingTime (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!--VeganMenu-->
+	<!ELEMENT VeganMenu (dish+)>
+
+	<!--Salads-->
+	<!ELEMENT Salads (dish+)>
+
+	<!--Desserts--> 
+	<!ELEMENT Desserts (dish+)>
+
+	<!--Spa and care services-->
+	<!ELEMENT spaCare (service+)>
+	<!ELEMENT service (name, description, duration, price, discount?,imagen)>
+	<!ATTLIST service  codigo (Spa1 | Spa2 | Spa3) #REQUIRED >
+	<!ELEMENT duration (#PCDATA)>
+	<!ATTLIST duration measure (hours) #REQUIRED >

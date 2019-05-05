@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Heaven Hotel</title> 
+		<link rel="stylesheet" href="../Style/rooms-style.css">
+		<link rel="icon" href="../Images/icon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="../JavaScript/RoomScript1.js"></script>
+	</head>
+	<body>
+		<!--Navigation bar	-->
+		<div class="navbar">
+			<a class="logo" href="../index.html"><b>Heaven Hotel</b></a>
+			<a href="rooms.html"><b>ROOMS</b></a>
+			<a href="restaurant.html" ><b>RESTAURANT</b></a>
+			<a href="salon.html"><b>SPA & CARE</b></a>
+			<a href="contact.html"  id="top"><b>CONTACTS</b></a>
+			<a href="../xml/SourceCatalogues.xml"><b>CATALOGUES</b></a>
+		</div>
+		<br>
+		<!-- The video about the rooms-->
+		<video controls autoplay loop muted class="center" height="500" >
+			<source src="../videos/rooms.mp4" type="video/mp4">
+		</video>
+		<hr>
+		<br>
+			<!-- The table from the left part of the page that contains the buttons that are used to filter.-->
+			<div class="column left">
+				
+					<div class="table myBtnContainer">
+						<!-- First group of rooms-->
+						<button class="btn active" onclick="filterSelection('all')">Luxury rooms</button>
+						<ul>
+							<li><button class="btn" onclick="filterSelection('pres')"> President</button></li>
+							<li><button class="btn" onclick="filterSelection('king')"> King</button></li>
+							<li><button class="btn" onclick="filterSelection('buss')"> Business</button></li>
+						</ul>
+						<!-- Second group of rooms-->
+						<button class="btn active" onclick="filterSelection('all2')">Standard rooms</button>
+						<ul>
+							<li><button class="btn" onclick="filterSelection('single2')">Single</button></li>
+							<li><button class="btn" onclick="filterSelection('double2')">Double</button></li>
+							<li><button class="btn" onclick="filterSelection('triple2')">Triple</button></li>
+						</ul>
+						<!-- Third group of rooms-->
+						<button class="btn active" onclick="filterSelection('all3')">Economy rooms</button>
+						<ul>
+						<li><button class="btn" onclick="filterSelection('single3')">Single</button></li>
+						<li><button class="btn" onclick="filterSelection('double3')">Double</button></li>
+						<li><button class="btn" onclick="filterSelection('triple3')">Triple</button></li>
+						</ul>
+					</div>
+					
+			</div>
+			
+			<div class="column right">
+				<!--Luxury rooms	-->
+				<h1>You can select the types of rooms that you want so see on the left of the page.</h1>
+				
+				<div class="containerTab">
+					<div class="fill filterDiv pres">
+					  <img src="../Images/room10.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A president room with a large panoramic view and two bathrooms, situated at the 10 floor...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv king">
+					  <img src="../Images/room8.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A president room with a large panoramic view and two bathrooms, situated at the 10 floor...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv king">
+					  <img src="../Images/room11.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A king size bedroom with magnific view of the city...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv buss">
+					  <img src="../Images/room6.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A king size bedroom with magnific view of the city...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv buss">
+					  <img src="../Images/room4.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A business class room adapted for successfull people..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv pres">
+					  <img src="../Images/room12.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A business class room adapted for successfull people..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+				</div>
+				<!--Standart rooms	-->
+				<div  class="containerTab" >
+					<div class="fill filterDiv single2, all2">
+					  <img src="../Images/room14.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A standard room with a stunning view and a good service..</p>
+						
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv single2, all2">
+					  <img src="../Images/room2.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>A standard room with a stunning view and a good service..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv double2, all2">
+					  <img src="../Images/room5.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect room for two to spend a good holiday</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<br>
+					<div class="fill filterDiv double2,all2">
+					  <img src="../Images/room13.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect room for two to spend a good holiday</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv triple2, all2">
+					  <img src="../Images/room3.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect romm for your family at the best hotel..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv triple2, all2">
+					  <img src="../Images/room15.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect romm for your family at the best hotel..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+				</div>
+				<!--Economy rooms	-->
+				<div class="containerTab">
+					<div class="fill filterDiv single3, all3">
+					  <img src="../Images/room9.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>More than an economic room for an economic price...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv single3, all3">
+					  <img src="../Images/room7.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>More than an economic room for an economic price...</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv double3, all3">
+					  <img src="../Images/room16.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>Economy double room for two persons that know to comine the pleasure with the price..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv double3, all3">
+					  <img src="../Images/room1.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>Economy double room for two persons that know to comine the pleasure with the price..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv triple3, all3">
+					  <img src="../Images/room17.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect room for a holiday with your family..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					<div class="fill filterDiv triple3, all3">
+					  <img src="../Images/room18.jpg" alt="Room" style="width:100%;">
+					  <div class="about">
+						<p>The perfect room for a holiday with your family..</p>
+						<!-- A button that is used only for styling the page, does not link with nothing-->
+						<button class="btn">BOOK NOW</button>
+					  </div>
+					</div>
+					
+				</div>
+				<!-- Some images that are shown by default to fill the blank space, because the filter works fine, but doe not show any images by default-->
+				<div class="line">
+					<div class="vertical">
+						<img src="../Images/view1.jpg" alt="Room" style="width:100%;">
+						<img src="../Images/view4.jpg" alt="Room" style="width:100%;">
+					</div>
+					<div class="vertical">
+						<img src="../Images/view6.jpg" alt="Room" style="width:100%;">
+						<img src="../Images/view5.jpg" alt="Room" style="width:100%;">
+					</div>
+					<div class="vertical">
+						<img src="../Images/view2.jpg" alt="Room" style="width:100%;">
+						<img src="../Images/view3.jpg" alt="Room" style="width:100%;">
+					</div>
+					
+				</div>
+			<!-- The button used to move up-->	
+			</div>
+			<a href="#top" ><img src="../Images/up.png" alt="subir" class="up"></a>
+			<!-- The footer-->
+			<footer>
+				<span><b>@2018 Heaven Hotel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>All rigths reserved</span>
+				<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+				<a href="https://www.youtube.com/"  target="_blank" class="fa fa-youtube"></a>
+				<a href="https://www.pinterest.es/" target="_blank" class="fa fa-pinterest"></a>
+				<a href="https://www.instagram.com/?hl=ro" target="_blank" class="fa fa-instagram"></a>
+			</footer>
+			</body>
+			
+			
+			
