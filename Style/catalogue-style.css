@@ -1,0 +1,113 @@
+body{
+	background-image: url("imagenes/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/* The navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 139, 140);
+    position: sticky;
+    top: 0;
+	font-family: Montserrat,Georgia,serif;
+	z-index: 1;
+	padding-left: 50px;
+	padding-right: 120px;
+	font-size: 25px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin-top: 15px;
+	float: left;
+	
+}
+.navbar a:hover {
+	color: orange;
+}
+/*Style the main part of the mage*/
+.main{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	padding-left: 30px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*style the cards of every product*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 360px;
+  height: 450px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+   border-radius: 25px;
+
+}
+.column {
+  float: left;
+  width: 30%;
+   padding: 0 10px;
+}
+/*style the text from the center of the image*/
+.center{
+	position: absolute;
+	background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.6); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  text-align: center;
+  width: 200px;
+  height: 200px;
+  margin-left:-90px;
+  margin-top: 90px;
+
+}
+/*a style for every image that represent the types of the services*/
+.bg-image {
+  background-image: url("../Images/room3.jpg");
+  height: 100%; /* Full height */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px;
+  vertical-align: middle;
+}
+.bg-image2 {
+  background-image: url("../Images/rest.jpg");
+  height: 100%; /* Full height */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px;
+}
+.bg-image3 {
+  background-image: url("../Images/spa.jpeg");
+  height: 100%; /* Full height */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 40px;
+}
+
+footer{
+	  text-align: center;
+}
+

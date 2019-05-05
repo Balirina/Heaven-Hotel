@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Heaven Hotel</title> 
+		<link rel="stylesheet" href="Style/style.css">
+		<link rel="icon" href="Images/icon.png">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="JavaScript/indexScript.js"></script>
+	</head>
+	<body>
+		<!--Logo Image-->
+		<img class="logoimg" alt="icon" src="Images/logo.png">
+		<!--Navigation bar-->
+		<ul>
+			<li><a class="logo" href="index.html"><b>Heaven Hotel</b></a></li>
+			<li><a href="html/rooms.html"><b>ROOMS</b></a></li>
+			<li><a href="html/restaurant.html"><b>RESTAURANT</b></a></li>
+			<li><a href="html/salon.html"><b>SPA & CARE</b></a><li>
+			<li><a href="html/contact.html"><b>CONTACTS</b></a></li>
+			<li><a href="xml/SourceCatalogues.xml"><b>CATALOGUES</b></a></li>
+		</ul>
+		<br>
+		<!-- Slideshow container -->
+		<div class="slideshow-container">
+			<!-- Full-width images-->
+			<div class="mySlides fade">
+				<img src="Images/hot.jpg" alt="hotel" style="width:100%">
+			</div>
+		   <div class="mySlides fade">
+				<img src="Images/hot1.jpg" alt="hotel" style="width:100%">
+		   </div>
+		   <div class="mySlides fade">
+				<img src="Images/hot3.jpg" alt="hotel" style="width:100%">
+		   </div>
+		</div>
+		<br>
+		<!-- The script for the Slideshow-->
+		<script>
+			var slideIndex = 0;
+				showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none"; 
+				}
+				slideIndex++;
+				if (slideIndex > slides.length) {slideIndex = 1} 
+				slides[slideIndex-1].style.display = "block"; 
+				setTimeout(showSlides, 4000); // Change image every 2 seconds
+			}
+		</script>
+		<hr>
+		<p style="font-size:30px"><b>Our Guests Rooms</b></p>
+		<div>
+		<!-- The Grid formed by two rows with pictures of rooms-->
+			<div class="row"><!-- First row-->
+				<div class="column">
+					<img class="image" src="Images/room6.jpg" alt="Room" >
+					<div class="overlay">
+						<div class="text">Luxury room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-30 %</p>
+					</div>
+				</div>
+				<div class="column">
+					<img class="image" src="Images/room2.jpg" alt="Room" >
+					<div class="overlay">
+						<div class="text">Normal room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-25 %</p>
+					</div>
+				</div>
+				<div class="column">
+					<img class="image" src="Images/room3.jpg" alt="Room" >
+					<div class="overlay">
+						<div class="text">Economy room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-20 %</p>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="row"><!-- Second row-->
+				<div class="column">
+					<img class="image" src="Images/room8.jpg" alt="Room">
+					<div class="overlay">
+						<div class="text">Luxury room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-30 %</p>
+					</div>
+				</div>
+				<div class="column">
+					<img class="image" src="Images/room5.jpg" alt="Room" >
+					<div class="overlay">
+						<div class="text">Normal room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-25 %</p>
+					</div>
+				</div>
+				<div class="column">
+					<img class="image" src="Images/room7.jpg" alt="Room" >
+					<div class="overlay">
+						<div class="text">Ecomony room</div>
+					</div>
+					<div class="text-block">
+						<p style="font-size:15px">-20 %</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<div class="clearfix">
+		<!-- The image aside the text-->
+			<p><img class="imgaside" src="Images/rest.jpg" alt="Restaurant" >
+			<span style="font-size:30px"><b>Restaurant</b></span><br><br><br>
+			Our restaurant has evolved into an incredible restaurant led by some brilliant and 
+			passionate people. The chefs are making magic in the kitchen with beautiful seasonal and locally 
+			sourced produce. On the drinks side, we’ve got a team of incredible bartenders who know how to 
+			mix you a wicked cocktail.<br><br>
+			<!-- The button that opens a form when clicking on it-->
+			<button type="submit" class="btn" onclick="openForm()" >Reserve a table</button></p>
+				<!-- The form that appears after clicking the button-->
+				<div class="form-popup" id="myForm">
+				  <form action="#" class="form-container">
+					<h3>What would you like to reserve</h3>
+					<input type="radio" name="Reservation" value="Room Reservation" checked>Room Reservation<br>
+					<input type="radio" name="Reservation" value="Table Reservation">Table Reservation<br>
+					<input type="radio" name="Reservation" value="Spa Salon Visit">Spa Salon Visit
+					<h3>When would you like to reserve</h3>
+					<input type="text" name="Date" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required> 
+					<h3>At what time?</h3>
+					<input type="text" name="Time" placeholder="hh/mm" pattern="[0-9]{2}/[0-9]{2}" required> 
+					<h3>Let us know who you are</h3>
+					<input type="text" name="Nmae" size="100" placeholder="Name, Surname" required><br>
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  </form>
+				</div>
+		</div>
+
+		<br>
+		<hr>
+		<br>
+		<div class="clearfix">
+		<!-- The image aside the text-->
+			<p><img class="imgaside" src="Images/spa.jpeg" alt="Spa and Care" >
+			<span style="font-size:30px"><b>Where Beauty Meets Relaxation</b></span><br><br><br>
+			Our Spa Salon has been servicing our community and beyond for over 30 years. Established 
+			in 1988, Visions Spa Salon has raised the standards for salons and spas through the decades.
+			Our tradition of excellence through diligent education and training has made Visions Spa Salon 
+			nationally awarded as one of the premier spa salons in our country.
+			<!-- The button that opens a form when clicking on it-->
+			<br><br><button type="submit" class="btn open-button" onclick="openForm()" >Make an appointment</button></p>
+			<!-- The form that appears after clicking the button-->
+			<div class="form-popup" id="myForm2">
+				  <form action="#" class="form-container">
+					<h3>What would you like to reserve</h3>
+					<input type="radio" name="Reservation" value="Room Reservation" checked>Room Reservation<br>
+					<input type="radio" name="Reservation" value="Table Reservation">Table Reservation<br>
+					<input type="radio" name="Reservation" value="Spa Salon Visit">Spa Salon Visit
+					<h3>When would you like to reserve</h3>
+					<input type="text" name="Date" placeholder="dd/mm/aaaa" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}" required> 
+					<h3>At what time?</h3>
+					<input type="text" name="Time" placeholder="hh/mm" pattern="[0-9]{2}/[0-9]{2}" required> 
+					<h3>Let us know who you are</h3>
+					<input type="text" name="Nmae" size="100" placeholder="Name, Surname" required><br>
+					<button type="submit" class="btn">Apply</button>
+					<button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+				  </form>
+				</div>
+		</div>
+		<br>
+		<hr>
+		<br>
+		<p style="font-size:25px"><b>Reasons why you have to choose us:</b></p>
+		<!-- The table situated on the bottom of the page with the reasons -->
+		<table>
+			<tr>
+				<td><img class="tableimg" src="Images/tram.png" alt="tram"></td>
+				<td>Acces to the public transport</td>
+				<td><img class="tableimg" src="Images/plane.png" alt="plane"></td>
+				<td>Airport in neibourhood</td>
+			</tr>
+			<tr>
+				<td><img class="tableimg" src="Images/wifi.png" alt="wifi"></td>
+				<td>Free Wi-Fi</td>
+				<td><img class="tableimg" src="Images/parking.png" alt="parking"></td>
+				<td>Free Parking</td>
+			</tr>
+			<tr>
+				<td><img class="tableimg" src="Images/rest.png" alt="restaurant"></td>
+				<td>Proper restaurant</td>
+				<td><img class="tableimg" src="Images/work.png" alt="business"></td>
+				<td>Business area</td>
+			</tr>
+			<tr>
+				<td><img class="tableimg" src="Images/service.png" alt="Room service"></td>
+				<td>Good quality room service</td>
+				<td><img class="tableimg" src="Images/pool.png" alt="swimming pool"></td>
+				<td>Big swimming pool</td>
+			</tr>
+			<tr>
+				<td><img class="tableimg" src="Images/invalid.png" alt="invalid"></td>
+				<td>Acces for the invalids</td>
+				<td><img class="tableimg" src="Images/wash.png" alt="clean service"></td>
+				<td>Wide cleaning service</td>
+			</tr>
+		</table>
+
+		<!-- The footer-->
+		<footer>
+			<span><b>@2018 Heaven Hotel&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>All rigths reserved</span>
+			<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+			<a href="https://www.youtube.com/"  target="_blank" class="fa fa-youtube"></a>
+			<a href="https://www.pinterest.es/" target="_blank" class="fa fa-pinterest"></a>
+			<a href="https://www.instagram.com/?hl=ro" target="_blank" class="fa fa-instagram"></a>
+		</footer>
+	</body>

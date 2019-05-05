@@ -1,0 +1,107 @@
+body{
+	background-image: url("imagenes/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align:center;
+}
+/* The navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 139, 140);
+    position: sticky;
+    top: 0;
+	font-family: Montserrat,Georgia,serif;
+	z-index: 1;
+	padding-left: 50px;
+	padding-right: 120px;
+	font-size: 25px;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin-top: 15px;
+	float: left;
+	
+}
+.navbar a:hover {
+	color: orange;
+}
+/*Style the main part of the mage*/
+.main{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+	padding-left: 30px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*style the cards of every product*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 240px;
+  height: 360px;
+  margin-left: 50px;
+  margin-bottom: 25px;
+   border-radius: 25px;
+
+}
+.column {
+  float: left;
+  width: 100%;
+}
+
+/*size for the image*/
+img{
+	width: 220px;
+	height: 200px;
+}
+/*style the price button*/
+.button{
+	background-color: rgb(14, 139, 140);
+  border: 2px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width:80px;
+  border-radius: 15px;
+}
+/*styling the title of the group of dishes*/
+.orizontal{
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(14, 139, 140);
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Comic Sans MS", cursive, sans-serif
+}
+/*style the title*/
+.title
+{
+	  font-size: 17px;
+	  font-weight: bold;
+	  color: rgb(14, 139, 140);
+}
+footer{
+	  text-align: center;
+}
+

@@ -1,0 +1,774 @@
+
+<!DOCTYPE html>
+<!-- Last Published: Mon Nov 05 2018 16:24:20 GMT+0000 (UTC) -->
+<html data-wf-domain="www.visionsspasalon.com" data-wf-page="57a78c93f66b1be80d2bf45a" data-wf-site="573cca96f97dd46d4f9da2e1">
+  <head>
+    <meta charset="utf-8" />
+    <title>Visions Spa Salon | Beauty &amp; Relaxation in Novi, Mi</title>
+    <meta content="Visit Visions Spa Salon to enjoy a day of beauty and relaxation. Our spa and salon offer a wide variety of services." name="description" />
+    <meta content="Visions Spa Salon | Beauty &amp; Relaxation in Novi, Mi" property="og:title" />
+    <meta content="Visit Visions Spa Salon to enjoy a day of beauty and relaxation. Our spa and salon offer a wide variety of services." property="og:description" />
+    <meta content="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/5ba2a57669677d83bb9a11af_visions-social.jpg" property="og:image" />
+    <meta content="summary" name="twitter:card" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="c5TdJ_u9gpfQ9nuwewAzwDn3ncQNta2d8oqeviXwNEU" name="google-site-verification" />
+    <link href="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/css/visionsspasalon.88ec57c2d.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      WebFont.load({
+        google: {
+          families: ["Inconsolata:400,700", "Old Standard TT:regular,700", "Playfair Display:regular,700,900"]
+        }
+      });
+    </script>
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif]-->
+    <script type="text/javascript">
+      ! function(o, c) {
+        var n = c.documentElement,
+          t = " w-mod-";
+        n.className += t + "js", ("ontouchstart" in o || o.DocumentTouch && c instanceof DocumentTouch) && (n.className += t + "touch")
+      }(window, document);
+    </script>
+    <link href="https://daks2k3a4ib2z.cloudfront.net/573cca96f97dd46d4f9da2e1/57728f74ef964c2829160836_Visions_favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+    <link href="https://daks2k3a4ib2z.cloudfront.net/573cca96f97dd46d4f9da2e1/57728f906ea686cf4f61b5c9_Visions_webclip.jpg" rel="apple-touch-icon" />
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-84079611-1'], ['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script');
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+
+      #map img {
+        max-width: none;
+      }
+
+      .input {
+        font-family: 'Old Standard';
+        padding: 8px 12px;
+        transition: 300ms;
+      }
+
+      .input:focus {
+        outline: none;
+        box-shadow: none;
+      }
+
+      .button {
+        color: white;
+      }
+    </style>
+
+  </head>
+  <body>
+    <div class="retarget w-embed w-script">
+      <!-- Facebook Pixel Code -->
+      <script>
+        ! function(f, b, e, v, n, t, s) {
+          if (f.fbq) return;
+          n = f.fbq = function() {
+            n.callMethod ?
+              n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          };
+          if (!f._fbq) f._fbq = n;
+          n.push = n;
+          n.loaded = !0;
+          n.version = '2.0';
+          n.queue = [];
+          t = b.createElement(e);
+          t.async = !0;
+          t.src = v;
+          s = b.getElementsByTagName(e)[0];
+          s.parentNode.insertBefore(t, s)
+        }(window,
+          document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1701667543468348'); // Insert your pixel ID here.
+        fbq('track', 'PageView');
+      </script>
+      <noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1701667543468348&ev=PageView&noscript=1"
+/></noscript>
+      <!-- DO NOT MODIFY -->
+      <!-- End Facebook Pixel Code -->
+
+      <!-- Google Code for Remarketing Tag -->
+      <!--------------------------------------------------
+Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. See more information and instructions on how to setup the tag on: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+      <script type="text/javascript">
+        /* <![CDATA[ */
+        var google_conversion_id = 850712498;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+      </script>
+      <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+      </script>
+      <noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/850712498/?guid=ON&amp;script=0"/>
+</div>
+</noscript>
+      <!-- start number replacer -->
+      <script type="text/javascript">
+        <!--
+        vs_account_id = "CtjSZVC1Q7Ae7QDE";
+        //-->
+      </script>
+      <script type="text/javascript" src="https://rw1.marchex.io/euinc/number-changer.js">
+      </script>
+      <!-- end ad widget -->
+    </div>
+    <div data-ix="fade-hide" class="splash-block">
+      <div class="vert-align splash"><img src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d92978aa920d0720990c87_visions-logo-white.png" srcset="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d92978aa920d0720990c87_visions-logo-white-p-500x414.png 500w, https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d92978aa920d0720990c87_visions-logo-white.png 767w" sizes="(max-width: 479px) 100vw, 275px" alt="" class="splash-logo" />
+        <div data-ix="letter-fly-1" class="splash-name">S</div>
+        <div data-ix="letter-fly-2" class="splash-name">P</div>
+        <div data-ix="letter-fly-3" class="splash-name name-separate">A</div>
+        <div data-ix="letter-fly-4" class="splash-name">S</div>
+        <div data-ix="letter-fly-5" class="splash-name">A</div>
+        <div data-ix="letter-fly-6" class="splash-name">L</div>
+        <div data-ix="letter-fly-7" class="splash-name">O</div>
+        <div data-ix="letter-fly-8" class="splash-name">N</div>
+      </div>
+    </div>
+    <div class="main-navigation">
+      <div class="fixednav">
+        <div class="top-nav-pulldown">
+          <div class="top-nav-col details">
+            <div class="top-nav-block left">
+              <div class="vert-align-2">
+                <h5>Visit Visions<br/>Spa Salon at:</h5>
+                <p class="nav-address">Visions Spa Salon<br/>26800 Beck Rd.<br/>Novi, MI 48374</p><a target="_blank" href="https://www.google.com/maps/place/Visions+Spa+Salon/@42.486427,-83.5166057,17z/data=!3m1!4b1!4m5!3m4!1s0x8824a8d636109e4d:0xae317f3d7af88079!8m2!3d42.486427!4d-83.514417" class="booking-btn w-button">Get Directions</a></div>
+            </div>
+          </div>
+          <div class="top-nav-col details">
+            <div class="top-nav-block">
+              <div class="hour-list holiday"><br/>New years Day - closed</div>
+              <div class="main-hours">
+                <div class="hour-list">Monday - 9am - 9pm</div>
+                <div class="hour-list">Tuesday - 9am - 9pm</div>
+                <div class="hour-list">Wednesday - 9am - 9pm</div>
+                <div class="hour-list">Thursday - 9am - 9pm</div>
+                <div class="hour-list">Friday - 9am - 9pm</div>
+                <div class="hour-list">Saturday - 8:30am - 7pm</div>
+                <div class="hour-list last">Sunday - 12Pm - 6pm<br/>EASTER SUNDAY - CLOSED</div>
+              </div>
+            </div>
+          </div>
+          <div class="top-nav-col details">
+            <div class="top-nav-block right">
+              <div class="vert-align-2">
+                <h5>Make an<br/>Appointment</h5><a href="tel:+12483449944" class="booking-btn w-button">Call 248-344-9944</a><a href="https://clients.visionsspasalon.com/onlinebooking2/#/" target="_blank" class="booking-btn w-button">Book Online</a><a href="https://local.demandforce.com/b/visionsspasalon/schedule" target="_blank" class="booking-btn w-button">request Online</a></div>
+            </div>
+          </div>
+        </div>
+        <div data-ix="top-pull-down" class="top-nav">
+          <div class="top-nav-col">
+            <div>Location</div>
+          </div>
+          <div class="top-nav-col middle">
+            <div class="text-block-3">Hours</div>
+          </div>
+          <div class="top-nav-col">
+            <div>Booking</div>
+          </div>
+        </div>
+        <div class="main-nav">
+          <div class="main-nav-container">
+            <div class="main-nav-links">
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Spa</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/spa" class="dropdown-link-2 w-dropdown-link">All Spa</a><a href="/spa/hair-removal" class="dropdown-link-2 w-dropdown-link">Hair Removal</a><a href="/spa/hand-and-foot" class="dropdown-link-2 w-dropdown-link">Hand and Foot</a><a href="/spa/body-treatments" class="dropdown-link-2 w-dropdown-link">Body Treatments</a><a href="/spa/massage" class="dropdown-link-2 w-dropdown-link">Massage</a><a href="/spa/oncology" class="dropdown-link-2 w-dropdown-link">Oncology</a><a href="/spa/skin-care" class="dropdown-link-2 w-dropdown-link">Skin Care</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Salon</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/salon" class="dropdown-link-2 w-dropdown-link">All Salon</a><a href="/salon/hair" class="dropdown-link-2 w-dropdown-link">Hair</a><a href="/salon/nails" class="dropdown-link-2 w-dropdown-link">Nails</a><a href="/salon/make-up" class="dropdown-link-2 w-dropdown-link">Make-Up</a><a href="/salon/sunless-tanning" class="dropdown-link-2 w-dropdown-link">Tanning</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Packages</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/packages" class="dropdown-link-2 w-dropdown-link">All Packages</a><a href="/packages-category/traditional" class="dropdown-link-2 w-dropdown-link">Traditional</a><a href="/packages-category/seasonal" class="dropdown-link-2 w-dropdown-link">Seasonal</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Events</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/parties" class="dropdown-link-2 w-dropdown-link">Parties</a><a href="/charity" class="dropdown-link-2 w-dropdown-link">Charities</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Company</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/about-us" class="dropdown-link-2 w-dropdown-link">About Us</a><a href="/contact" class="dropdown-link-2 w-dropdown-link">Contact Us</a><a href="/careers" class="dropdown-link-2 w-dropdown-link">Careers</a><a href="/legal" class="dropdown-link-2 w-dropdown-link">Legal</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Info</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="/rewards" class="dropdown-link-2 w-dropdown-link">Rewards</a><a href="/general-info" class="dropdown-link-2 w-dropdown-link">General Info</a><a href="/food-menu" class="dropdown-link-2 w-dropdown-link">Food Menu</a><a href="/products" class="dropdown-link-2 w-dropdown-link">Products</a></nav>
+              </div>
+              <div data-delay="0" class="nav-dropdown w-dropdown">
+                <div class="dropdown-nav w-dropdown-toggle">
+                  <div>Shop</div>
+                  <div class="dropdown-icon w-icon-dropdown-toggle"></div>
+                </div>
+                <nav class="dropdown-list w-dropdown-list"><a href="https://visionsspasalon.millenniumegift.com/" target="_blank" class="dropdown-link-2 w-dropdown-link">Gift Cards</a></nav>
+              </div>
+            </div><a href="/" class="main-nav-logo w-inline-block w--current"><img src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/574458606ccba3d37a16d654_logo-1.png" width="90" alt="" class="navlogo"/></a></div>
+        </div>
+        <div data-collapse="all" data-animation="default" data-duration="400" class="navbaroverlay mobile w-nav">
+          <div class="navcontainer w-container"><a href="/" class="brand w-nav-brand w--current"><img src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/574458606ccba3d37a16d654_logo-1.png" width="90" alt="" class="navlogo"/></a>
+            <div class="navlinkblock">
+              <ul class="navlinkblocklist">
+                <li class="navlinkblockitem">Spa</li>
+                <li class="navlinkblockitem">Salon</li>
+                <li class="navlinkblockitem">Packages</li>
+                <li class="navlinkblockitem">Gift Cards</li>
+              </ul>
+            </div>
+            <nav role="navigation" class="navmenuopen w-nav-menu">
+              <div class="navcontaineropen">
+                <div data-delay="0" class="nav-mobile-dropdown first w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Spa<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/spa" class="dropdownlink w-dropdown-link">All Spa</a><a href="/spa/hair-removal" class="dropdownlink w-dropdown-link">Hair Removal</a><a href="/spa/hand-and-foot" class="dropdownlink w-dropdown-link">Hand And Foot</a><a href="/spa/body-treatments" class="dropdownlink w-dropdown-link">Body Treatments</a><a href="/spa/massage" class="dropdownlink w-dropdown-link">Massage</a><a href="/spa/oncology" class="dropdownlink w-dropdown-link">Oncology</a><a href="/spa/skin-care" class="dropdownlink w-dropdown-link">Skin Care</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Salon<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/salon" class="dropdownlink w-dropdown-link">All Salon</a><a href="/salon/hair" class="dropdownlink w-dropdown-link">Hair</a><a href="/salon/nails" class="dropdownlink w-dropdown-link">Nails</a><a href="/salon/make-up" class="dropdownlink w-dropdown-link">Make-up</a><a href="/salon/sunless-tanning" class="dropdownlink w-dropdown-link">Tanning</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Packages<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/packages" class="dropdownlink w-dropdown-link">All Packages</a><a href="/packages-category/traditional" class="dropdownlink w-dropdown-link">Traditional</a><a href="/packages-category/seasonal" class="dropdownlink w-dropdown-link">Seasonal</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Events<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/parties" class="dropdownlink w-dropdown-link">Parties</a><a href="/charity" class="dropdownlink w-dropdown-link">Charities</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Company<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/about-us" class="dropdownlink w-dropdown-link">About Us</a><a href="/contact" class="dropdownlink w-dropdown-link">Contact Us</a><a href="/careers" class="dropdownlink w-dropdown-link">Careers</a><a href="/legal" class="dropdownlink w-dropdown-link">Legal</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Info<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="/rewards" class="dropdownlink w-dropdown-link">Rewards</a><a href="/general-info" class="dropdownlink w-dropdown-link">General Info</a><a href="/food-menu" class="dropdownlink w-dropdown-link">Food Menu</a><a href="/products" class="dropdownlink w-dropdown-link">Products</a></nav>
+                </div>
+                <div data-delay="0" class="nav-mobile-dropdown w-dropdown">
+                  <div class="w-dropdown-toggle">
+                    <div class="navlink">Shop<span class="arrowicon">?</span></div>
+                  </div>
+                  <nav class="dropdownlist w-dropdown-list"><a href="https://visionsspasalon.millenniumegift.com/" class="dropdownlink w-dropdown-link">Gift cards</a><a href="/shop" class="dropdownlink shophidden w-dropdown-link">Shop</a></nav>
+                </div>
+              </div>
+            </nav>
+            <a href="/booking" class="navrequest w-inline-block">
+              <div class="navicon">?</div>
+              <div class="navrequestlink">Book</div>
+            </a>
+            <div class="cartembed w-embed">
+              <a href="https://visionsspasalon.foxycart.com/cart?cart=view" class="cart-link" style="display: block;">
+                <div class="shoppingcart">?</div>
+                <div>
+                  <p class="cartlink">Cart <span class="cartquantity" data-fc-id="minicart-quantity">0</span></p>
+                </div>
+              </a>
+            </div>
+            <div class="menubutton w-nav-button">
+              <div class="menuicon w-icon-nav-menu"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-collapse="all" data-animation="default" data-duration="400" class="navbaroverlay desktop w-nav">
+        <div class="navcontainer w-container"><a href="/" class="w-nav-brand w--current"><img src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/574458606ccba3d37a16d654_logo-1.png" width="90" alt="" class="navlogo"/></a>
+          <div class="navlinkblock">
+            <ul class="navlinkblocklist">
+              <li class="navlinkblockitem"><a href="/spa" class="navlinkblocklink">Spa</a></li>
+              <li class="navlinkblockitem"><a href="/salon" class="navlinkblocklink">Salon</a></li>
+              <li class="navlinkblockitem"><a href="/packages" class="navlinkblocklink">Packages</a></li>
+              <li class="navlinkblockitem"><a target="_blank" href="https://visionsspasalon.millenniumegift.com/" class="navlinkblocklink">Gift Cards</a></li>
+              <li class="navlinkblockitem"><a href="/shop" class="navlinkblocklink">Shop</a></li>
+            </ul>
+          </div>
+          <nav role="navigation" class="navmenuopen w-nav-menu">
+            <div class="navcontaineropen w-clearfix">
+              <div class="navleft">
+                <div class="navrow w-row">
+                  <div class="colzero w-col w-col-6 w-col-small-6">
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Spa</li>
+                      <li class="navmenulistitem"><a href="/spa" class="navlinkitem">All Spa</a></li>
+                      <li class="navmenulistitem"><a href="/spa/hair-removal" class="navlinkitem">Hair Removal</a></li>
+                      <li class="navmenulistitem"><a href="/spa/hand-and-foot" class="navlinkitem">Hand And Foot</a></li>
+                      <li class="navmenulistitem"><a href="/spa/body-treatments" class="navlinkitem">Body Treatments</a></li>
+                      <li class="navmenulistitem"><a href="/spa/massage" class="navlinkitem">Massage</a></li>
+                      <li class="navmenulistitem"><a href="/spa/oncology" class="navlinkitem">Oncology</a></li>
+                      <li class="navmenulistitem"><a href="/spa/skin-care" class="navlinkitem">Skin Care</a></li>
+                    </ul>
+                  </div>
+                  <div class="colzero w-col w-col-6 w-col-small-6">
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Salon</li>
+                      <li class="navmenulistitem"><a href="/salon" class="navlinkitem">All Salon</a></li>
+                      <li class="navmenulistitem"><a href="/salon/hair" class="navlinkitem">Hair</a></li>
+                      <li class="navmenulistitem"><a href="/salon/nails" class="navlinkitem">Nails</a></li>
+                      <li class="navmenulistitem"><a href="/salon/make-up" class="navlinkitem">Make-Up</a></li>
+                      <li class="navmenulistitem"><a href="/salon/sunless-tanning" class="navlinkitem">Tanning</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="navleft">
+                <div class="navrow w-row">
+                  <div class="colzero w-col w-col-6 w-col-small-6">
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Packages</li>
+                      <li class="navmenulistitem"><a href="/packages" class="navlinkitem">All Packages</a></li>
+                      <li class="navmenulistitem"><a href="/packages-category/traditional" class="navlinkitem">Traditional</a></li>
+                      <li class="navmenulistitem"><a href="/packages-category/seasonal" class="navlinkitem">Seasonal</a></li>
+                    </ul>
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Shop</li>
+                      <li class="navmenulistitem"><a target="_blank" href="https://visionsspasalon.millenniumegift.com/" class="navlinkitem">Gift Cards</a></li>
+                      <li class="navmenulistitem"><a href="/shop" class="navlinkitem">Shop</a></li>
+                    </ul>
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Events</li>
+                      <li class="navmenulistitem"><a href="/parties" class="navlinkitem">Parties</a></li>
+                      <li class="navmenulistitem"><a href="/charity" class="navlinkitem">Charities</a></li>
+                    </ul>
+                  </div>
+                  <div class="colzero w-col w-col-6 w-col-small-6">
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Company</li>
+                      <li class="navmenulistitem"><a href="/about-us" class="navlinkitem">About Us</a></li>
+                      <li class="navmenulistitem"><a href="/contact" class="navlinkitem">Contact Us</a></li>
+                      <li class="navmenulistitem"><a href="/careers" class="navlinkitem">Careers</a></li>
+                      <li class="navmenulistitem"><a href="/legal" class="navlinkitem">Legal</a></li>
+                    </ul>
+                    <ul class="navmenulist">
+                      <li class="navmenulistitem navlisttitle">Info</li>
+                      <li class="navmenulistitem"><a href="/rewards" class="navlinkitem">Rewards</a></li>
+                      <li class="navmenulistitem"><a href="/general-info" class="navlinkitem">General Info</a></li>
+                      <li class="navmenulistitem"><a href="/food-menu" class="navlinkitem">Food Menu</a></li>
+                      <li class="navmenulistitem"><a href="/products" class="navlinkitem">Products</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="navleft cta">
+                <ul class="navmenulist cta">
+                  <li class="navmenulistitem cta">Call 1.248.344.9944</li>
+                  <li class="navmenulistitem cta"><a target="_blank" href="https://clients.visionsspasalon.com/onlinebooking/" class="navlinkblocklink">Book An Appointment</a></li>
+                  <li class="navmenulistitem cta"><a href="https://www.demandforce.com/b/visionsspasalon/schedule" target="_blank" class="navlinkblocklink">Request An Appointment</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <a href="/booking" class="navrequest w-inline-block">
+            <div class="navicon">?</div>
+            <div class="navrequestlink">Book</div>
+          </a>
+          <div class="cartembed w-embed">
+            <a href="https://visionsspasalon.foxycart.com/cart?cart=view" class="cart-link" style="display: block;">
+              <div class="shoppingcart">?</div>
+              <div>
+                <p class="cartlink">Cart <span class="cartquantity" data-fc-id="minicart-quantity">0</span></p>
+              </div>
+            </a>
+          </div>
+          <div class="menubutton w-nav-button">
+            <div class="menuicon w-icon-nav-menu"></div>
+            <div class="navmenutext">Menu</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-home">
+      <div class="vert-align">
+        <h2 data-ix="fade-in-1" class="subheading-above hero">Visit Visions Spa Salon for the perfect getaway</h2>
+        <h1 data-ix="fade-in-2" class="heading-1 hero">The Experience is Waiting.</h1><a href="/booking" data-ix="fade-in-3" class="btn hero w-button">Book An Appointment</a></div>
+      <div class="discover">
+        <div data-ix="fade-in-grow-4" class="vert-line hero"></div>
+        <div data-ix="fade-in-5" class="secondary-anchor-link home"><a href="#super-wrapper-home" data-ix="fade-in-5" class="link anchor-arrow">?</a></div>
+      </div>
+    </div>
+    <div class="hero-main">
+      <div data-ix="slow-zoom" class="hero-zoom"></div>
+      <div class="vertical-align-home">
+        <div class="wrapper">
+          <div class="container-main">
+            <h2 class="hero-heading-h2">Visit Visions Spa Salon For the Perfect Getaway</h2>
+            <h1>Where Beauty Meets Relaxation</h1>
+          </div>
+        </div>
+      </div>
+      <div class="page-scroll"></div>
+    </div>
+    <div id="super-wrapper-home" class="super-wrapper home">
+      <div class="container-main container-home-cta">
+        <div class="row w-row">
+          <div class="column column-left-pad-0 w-col w-col-4 w-col-stack">
+            <h3 class="heading-container-cta">Location</h3>
+            <p class="header-paragraph">Visions Spa Salon<br/>26800 Beck Rd.<br/>Novi, MI 48374</p>
+          </div>
+          <div class="column column-middle info info-home w-col w-col-4 w-col-stack">
+            <h3 class="heading-container-cta">Hours</h3>
+            <p class="header-paragraph">Mon-Fri: 9:00AM - 9:00PM<br/>Sat: 8:30AM - 7:00PM<br/>Sun: Noon - 6:00PM</p>
+          </div>
+          <div class="column column-right-pad-0 w-col w-col-4 w-col-stack">
+            <h3 class="heading-container-cta">Contact</h3>
+            <p class="header-paragraph">Phone: <a href="tel:+12483449944" class="phonespan">248.344.9944</a><br/>Fax: <span class="phonespan"><a href="tel:+12483440422" class="phonespan">248.344.0422</a></span><br/><a href="mailto:info@visionsspasalon.com" class="content-link white">info@visionsspasalon.com</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="container-main padding-large w-container">
+          <div data-w-id="7c622738-f5d0-610d-170e-5f3727076f31" style="opacity:0" class="sub-container-center text-overlay">
+            <h2>Where Beauty Meets Relaxation</h2>
+            <p class="large-paragraph">Visions Spa Salon has been servicing our community and beyond for over 30 years. Established in 1988, Visions Spa Salon has raised the standards for salons and spas through the decades. Our tradition of excellence through diligent education and training has made Visions Spa Salon nationally awarded as one of the premier spa salons in our country.</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex-home-service">
+        <a href="#" class="flex-home-link category w-inline-block">
+          <div class="div-block-7"></div>
+        </a>
+        <div class="flex-home-link text">
+          <div data-w-id="56089205-b9a1-fb51-dcf8-306e44f241a3" style="opacity:0" class="vert-align-2 home-service">
+            <h2 class="subheading-above home-service">The Spa</h2>
+            <h2>Relaxation</h2>
+            <p class="paragraph centered">Enjoy a relaxing day at Visions with our premier spa services. Pampering yourself has never felt better.</p><a href="/spa" class="btn w-button">Explore the Spa</a></div>
+        </div>
+      </div>
+      <div class="flex-home-service flip">
+        <a href="#" class="flex-home-link category salon w-inline-block">
+          <div class="div-block-7"></div>
+        </a>
+        <div class="flex-home-link text">
+          <div data-w-id="2d1def52-7df9-d269-225e-5a2d46ac92be" style="opacity:0" class="vert-align-2 home-service">
+            <h2 class="subheading-above home-service">The Salon</h2>
+            <h2>Beauty</h2>
+            <p class="paragraph centered">Look your best with Visions Spa Salon’s first-class salon services.</p><a href="/salon" class="btn w-button">Explore the Salon</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-main">
+      <div class="footer-cta">
+        <div class="wrapper">
+          <div class="container-main padding-large w-container">
+            <div class="sub-container-center text-overlay">
+              <h2>Your Everyday Retreat</h2>
+              <p class="large-paragraph">Visions Spa Salon in Novi, Michigan is pleased to serve Metro Detroit. Whether you are searching for a new look or day of pampering, our number one priority is to please you. Come in today and treat yourself to the beauty and relaxation you deserve.</p>
+              <div class="footer-contact-phone">(248) 344-9944</div><a href="/booking" class="btn visit w-button">Book An Appointment</a></div>
+          </div>
+        </div><img src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview.png" srcset="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview-p-500x214.png 500w, https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview-p-800x342.png 800w, https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview-p-1080x461.png 1080w, https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview-p-1600x683.png 1600w, https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/58d8ab12aa920d072098dc65_visions-frontview.png 2000w" sizes="100vw" alt="" class="building" /></div>
+      <div class="spotlight-container w-container">
+        <div class="wrapper spotlight">
+          <div class="spotlight-wrapper w-dyn-list">
+            <div class="spotlight-dynamic-list w-clearfix w-dyn-items w-row">
+              <div class="spotlight-item w-dyn-item w-col w-col-4">
+                <a href="/spotlight/aroma-fusion-body-retreat" data-ix="hover-zoom-2" class="spotlight-link-block w-inline-block">
+                  <div class="spotlight-item-child spotlight-middle">
+                    <div style="background-image:url(&quot;https://uploads-ssl.webflow.com/57434916762794412695e3bc/5be06dba61ec8360af83db36_body%20treatment.PNG&quot;)" class="spotlight-child-background"></div>
+                    <h4 class="spotlight-grid-title">Aroma Fusion Body Retreat</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="spotlight-item w-dyn-item w-col w-col-4">
+                <a href="/spotlight/visions-spa-salon-is-now-a-member-of-intercoiffure" data-ix="hover-zoom-2" class="spotlight-link-block w-inline-block">
+                  <div class="spotlight-item-child spotlight-middle">
+                    <div style="background-image:url(&quot;https://daks2k3a4ib2z.cloudfront.net/57434916762794412695e3bc/5a4fb715cd804e00018fe5d6_Intercoiffure(1).jpg&quot;)" class="spotlight-child-background"></div>
+                    <h4 class="spotlight-grid-title">Visions Spa Salon is now a member of Intercoiffure</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="spotlight-item w-dyn-item w-col w-col-4">
+                <a href="/spotlight/airbrush-makeup" data-ix="hover-zoom-2" class="spotlight-link-block w-inline-block">
+                  <div class="spotlight-item-child spotlight-middle">
+                    <div style="background-image:url(&quot;https://daks2k3a4ib2z.cloudfront.net/57434916762794412695e3bc/5925d2cb6e5daf2bfe68435b_airbrush-makeup.jpeg&quot;)" class="spotlight-child-background"></div>
+                    <h4 class="spotlight-grid-title">Airbrush Makeup </h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="social-media">
+        <div><span><a href="https://www.facebook.com/visionsspasalon" target="_blank" class="social-icon">?</a></span> <span><a href="https://twitter.com/VisionsSpaSalon" target="_blank" class="social-icon">?</a></span> <span><a href="https://www.instagram.com/visionsspasalon/" target="_blank" class="social-icon">?</a></span><span><a href="https://www.pinterest.com/visionsspasalon/" target="_blank" class="social-icon">?</a></span></div>
+      </div>
+      <div class="footer">
+        <div class="wrapper">
+          <div class="container-main hr footer w-container">
+            <div class="w-row">
+              <div class="column column-left footer-links w-col w-col-7">
+                <h3 class="heading-6">Visions Spa Salon</h3>
+                <p>Raising the standard for salons and spas through the decades. Visit us for the perfect balance of beauty and relaxation. The Experience is Waiting.</p>
+                <div class="footer-links-row w-row">
+                  <div class="w-col w-col-4">
+                    <ul class="footer-nav">
+                      <li class="footer-nav-item"><a href="/privacy-policy" class="footer-nav-link">Privacy</a></li>
+                      <li class="footer-nav-item"><a href="/terms" class="footer-nav-link">Terms</a></li>
+                      <li class="footer-nav-item"><a href="/about-us" class="footer-nav-link">About Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-col w-col-4">
+                    <ul class="footer-nav">
+                      <li class="footer-nav-item"><a href="/contact" class="footer-nav-link">Contact</a></li>
+                      <li class="footer-nav-item"><a href="https://clients.visionsspasalon.com/login.asp" class="footer-nav-link">Login</a></li>
+                      <li class="footer-nav-item"><a target="_blank" href="https://login.bluehost.com/cgi/webmail" class="footer-nav-link">Web Mail</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-col w-col-4">
+                    <ul class="footer-nav">
+                      <li class="footer-nav-item"><a href="/careers" class="footer-nav-link">Careers</a></li>
+                      <li class="footer-nav-item"><a href="/rewards" class="footer-nav-link">Rewards</a></li>
+                      <li class="footer-nav-item"><a target="_blank" href="/legal" class="footer-nav-link">Legal</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="column column-right newsletter w-col w-col-5">
+                <p class="newsletter-heading">Stay up-to-date on services, specials, and more!</p>
+                <div class="w-form">
+                  <form id="email-form" name="email-form" data-name="Email Form" class="w-clearfix"><input type="email" class="input input-dark w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="Email Address" id="Email-Address" required="" />
+                    <div>
+                      <div class="w-row">
+                        <div class="w-col w-col-6"><input type="text" class="input input-dark news-left w-input" maxlength="256" name="First-Name" data-name="First Name" placeholder="First Name" id="First-Name" required="" /></div>
+                        <div class="w-col w-col-6"><input type="text" class="input input-dark w-input" maxlength="256" name="Last-Name" data-name="Last Name" placeholder="Last Name" id="Last-Name" required="" /></div>
+                      </div>
+                    </div>
+                    <p class="paragraph-xs">By submitting this form, you are granting: Visions Spa Salon permission to email you. </p><input type="submit" value="Sign Up" data-wait="Please wait..." class="button newsletter w-button" /></form>
+                  <div class="w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+                <div class="email-newsletter-embed w-embed w-script">
+                  <!--Begin CTCT Sign-Up Form-->
+                  <!-- EFD 1.0.0 [Thu Jun 30 16:48:40 EDT 2016] -->
+                  <!--<link rel='stylesheet' type='text/css' href='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/css/signup-form.css'>-->
+                  <div class="ctct-embed-signup" style="font: 16px Helvetica Neue, Arial, sans-serif; font: 1rem Helvetica Neue, Arial, sans-serif; line-height: 1.5; -webkit-font-smoothing: antialiased;">
+                    <div style="color:#5b5b5b; border-radius:5px; margin-top: 10px; text-align: right;">
+                      <span id="success_message" style="display:none;">
+           <div style="text-align:center; font-family: 'Old Standard';">Thanks for signing up!</div>
+       </span>
+                      <form data-id="embedded_signup:form" class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
+                        <!--<h2 style="margin:0;">Stay up-to-date on services, specials, and more!</h2>-->
+                        <!--<p>Stay up-to-date on services, specials, and more!</p>-->
+                        <!-- The following code must be included to ensure your sign-up form works properly. -->
+                        <input data-id="ca:input" type="hidden" name="ca" value="69d82f9d-d127-4bf5-b382-9bd8cac439c1">
+                        <input data-id="list:input" type="hidden" name="list" value="1208141299">
+                        <input data-id="source:input" type="hidden" name="source" value="EFD">
+                        <input data-id="required:input" type="hidden" name="required" value="list,email,first_name,last_name">
+                        <input data-id="url:input" type="hidden" name="url" value="">
+                        <p class="label-hidden" data-id="Email Address:p"><label data-id="Email Address:label" data-name="email" class="ctct-form-required">Email Address</label></p>
+                        <input class="input input-dark" data-id="Email Address:input" type="text" name="email" value="" maxlength="80" placeholder="Email Address">
+                        <div class="w-row">
+                          <div class="col-input column column-left-pad-0 w-col w-col-6">
+                            <p class="label-hidden" data-id="First Name:p"><label data-id="First Name:label" data-name="first_name" class="ctct-form-required">First Name</label></p>
+                            <input class="input input-dark" data-id="First Name:input" type="text" name="first_name" value="" maxlength="50" placeholder="First Name">
+                          </div>
+                          <div class="col-input column column-right-pad-0 w-col w-col-6">
+                            <p class="label-hidden" data-id="Last Name:p"><label data-id="Last Name:label" data-name="last_name" class="ctct-form-required">Last Name</label></p>
+                            <input class="input input-dark" data-id="Last Name:input" type="text" name="last_name" value="" maxlength="50" placeholder="Last Name">
+                          </div>
+                        </div>
+                        <div>
+                          <p class="ctct-form-footer small-paragraph gray" style="text-align: left;">By submitting this form, you are granting: Visions Spa Salon permission to email you. You may unsubscribe via the link found at the bottom of every email. (See our <a class="email-privacy" href="http://www.constantcontact.com/legal/privacy-statement" target="_blank">Email Privacy Policy</a> for details.)
+                            <!--Emails are serviced by Constant Contact.-->
+                          </p>
+                        </div>
+                        <button type="submit" class="button" data-enabled="enabled">Sign Up</button>
+
+                      </form>
+                    </div>
+                  </div>
+                  <script type='text/javascript'>
+                    var localizedErrMap = {};
+                    localizedErrMap['required'] = 'This field is required.';
+                    localizedErrMap['ca'] = 'An unexpected error occurred while attempting to send email.';
+                    localizedErrMap['email'] = 'Please enter your email address in name@email.com format.';
+                    localizedErrMap['birthday'] = 'Please enter birthday in MM/DD format.';
+                    localizedErrMap['anniversary'] = 'Please enter anniversary in MM/DD/YYYY format.';
+                    localizedErrMap['custom_date'] = 'Please enter this date in MM/DD/YYYY format.';
+                    localizedErrMap['list'] = 'Please select at least one email list.';
+                    localizedErrMap['generic'] = 'This field is invalid.';
+                    localizedErrMap['shared'] = 'Sorry, we could not complete your sign-up. Please contact us to resolve this.';
+                    localizedErrMap['state_mismatch'] = 'Mismatched State/Province and Country.';
+                    localizedErrMap['state_province'] = 'Select a state/province';
+                    localizedErrMap['selectcountry'] = 'Select a country';
+                    var postURL = 'https://visitor2.constantcontact.com/api/signup';
+                  </script>
+                  <script type='text/javascript' src='https://static.ctctcdn.com/h/contacts-embedded-signup-assets/1.0.2/js/signup-form.js'></script>
+                  <!--End CTCT Sign-Up Form-->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="page-scroll-bottom"></div>
+            <div class="container-main footer-base-info w-container">
+              <div class="copyright">© 2017 Visions Spa Salon</div>
+              <div class="link-back">Designed by <a data-rt-link-type="external" href="http://mshawdsgn.com/" target="_blank" class="link-back-2">MSHAW DSGN</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="announcement-bar">
+      <p>Please view our <a href="/privacy-policy" class="announcement-link">Privacy</a> and <a href="/terms" class="announcement-link">Terms</a> updates</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://uploads-ssl.webflow.com/573cca96f97dd46d4f9da2e1/js/visionsspasalon.233a1c517.js" type="text/javascript"></script>
+    <!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
+    <!-- FOXYCART -->
+    <script src="//cdn.foxycart.com/visionsspasalon/loader.js" async defer></script>
+    <!-- /FOXYCART -->
+
+
+    <script>
+      /*
+       Sticky-kit v1.1.2 | WTFPL | Leaf Corcoran 2015 | http://leafo.net
+      */
+      (function() {
+        var b, f;
+        b = this.jQuery || window.jQuery;
+        f = b(window);
+        b.fn.stick_in_parent = function(d) {
+          var A, w, J, n, B, K, p, q, k, E, t;
+          null == d && (d = {});
+          t = d.sticky_class;
+          B = d.inner_scrolling;
+          E = d.recalc_every;
+          k = d.parent;
+          q = d.offset_top;
+          p = d.spacer;
+          w = d.bottoming;
+          null == q && (q = 0);
+          null == k && (k = void 0);
+          null == B && (B = !0);
+          null == t && (t = "is_stuck");
+          A = b(document);
+          null == w && (w = !0);
+          J = function(a, d, n, C, F, u, r, G) {
+            var v, H, m, D, I, c, g, x, y, z, h, l;
+            if (!a.data("sticky_kit")) {
+              a.data("sticky_kit", !0);
+              I = A.height();
+              g = a.parent();
+              null != k && (g = g.closest(k));
+              if (!g.length) throw "failed to find stick parent";
+              v = m = !1;
+              (h = null != p ? p && a.closest(p) : b("<div />")) && h.css("position", a.css("position"));
+              x = function() {
+                var c, f, e;
+                if (!G && (I = A.height(), c = parseInt(g.css("border-top-width"), 10), f = parseInt(g.css("padding-top"), 10), d = parseInt(g.css("padding-bottom"), 10), n = g.offset().top + c + f, C = g.height(), m && (v = m = !1, null == p && (a.insertAfter(h), h.detach()), a.css({
+                      position: "",
+                      top: "",
+                      width: "",
+                      bottom: ""
+                    }).removeClass(t), e = !0), F = a.offset().top - (parseInt(a.css("margin-top"), 10) || 0) - q,
+                    u = a.outerHeight(!0), r = a.css("float"), h && h.css({
+                      width: a.outerWidth(!0),
+                      height: u,
+                      display: a.css("display"),
+                      "vertical-align": a.css("vertical-align"),
+                      "float": r
+                    }), e)) return l()
+              };
+              x();
+              if (u !== C) return D = void 0, c = q, z = E, l = function() {
+                var b, l, e, k;
+                if (!G && (e = !1, null != z && (--z, 0 >= z && (z = E, x(), e = !0)), e || A.height() === I || x(), e = f.scrollTop(), null != D && (l = e - D), D = e, m ? (w && (k = e + u + c > C + n, v && !k && (v = !1, a.css({
+                    position: "fixed",
+                    bottom: "",
+                    top: c
+                  }).trigger("sticky_kit:unbottom"))), e < F && (m = !1, c = q, null == p && ("left" !== r && "right" !== r || a.insertAfter(h),
+                    h.detach()), b = {
+                    position: "",
+                    width: "",
+                    top: ""
+                  }, a.css(b).removeClass(t).trigger("sticky_kit:unstick")), B && (b = f.height(), u + q > b && !v && (c -= l, c = Math.max(b - u, c), c = Math.min(q, c), m && a.css({
+                    top: c + "px"
+                  })))) : e > F && (m = !0, b = {
+                    position: "fixed",
+                    top: c
+                  }, b.width = "border-box" === a.css("box-sizing") ? a.outerWidth() + "px" : a.width() + "px", a.css(b).addClass(t), null == p && (a.after(h), "left" !== r && "right" !== r || h.append(a)), a.trigger("sticky_kit:stick")), m && w && (null == k && (k = e + u + c > C + n), !v && k))) return v = !0, "static" === g.css("position") && g.css({
+                    position: "relative"
+                  }),
+                  a.css({
+                    position: "absolute",
+                    bottom: d,
+                    top: "auto"
+                  }).trigger("sticky_kit:bottom")
+              }, y = function() {
+                x();
+                return l()
+              }, H = function() {
+                G = !0;
+                f.off("touchmove", l);
+                f.off("scroll", l);
+                f.off("resize", y);
+                b(document.body).off("sticky_kit:recalc", y);
+                a.off("sticky_kit:detach", H);
+                a.removeData("sticky_kit");
+                a.css({
+                  position: "",
+                  bottom: "",
+                  top: "",
+                  width: ""
+                });
+                g.position("position", "");
+                if (m) return null == p && ("left" !== r && "right" !== r || a.insertAfter(h), h.remove()), a.removeClass(t)
+              }, f.on("touchmove", l), f.on("scroll", l), f.on("resize",
+                y), b(document.body).on("sticky_kit:recalc", y), a.on("sticky_kit:detach", H), setTimeout(l, 0)
+            }
+          };
+          n = 0;
+          for (K = this.length; n < K; n++) d = this[n], J(b(d));
+          return this
+        }
+      }).call(this);
+    </script>
+
+    <script>
+      $(document).ready(function() {
+        $("#sidebar, #main_column").stick_in_parent();
+      });
+    </script>
+  </body>
+</html>
+

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE heavenHotel[
+<!ELEMENT heavenHotel (VAT, roomRent, restaurant, spaCare)>
+	<!ELEMENT VAT (#PCDATA)>
+	<!--RoomRent Service-->
+	<!ELEMENT roomRent (rooms+)>
+	<!ELEMENT cityTax (#PCDATA)>
+	<!ELEMENT rooms (room+)>
+	<!ATTLIST rooms  type (luxury | standard | economy) #REQUIRED >
+	<!ELEMENT room (bedroom, kitchen, airConditioning, roomsService, price, discount?,imagen)>
+	<!ATTLIST room  id (president | king | business | single | double |triple) #REQUIRED >
+	<!ELEMENT bedroom (#PCDATA)>
+	<!ELEMENT kitchen (#PCDATA)>
+	<!ELEMENT airConditioning EMPTY>
+	<!ATTLIST airConditioning  id (Yes| No) #REQUIRED >
+	<!ELEMENT roomsService (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT discount (#PCDATA)>
+	<!ELEMENT imagen (#PCDATA)>
+	<!--restaurant products-->
+	<!ELEMENT restaurant (ChickenMenu, VeganMenu, Salads, Desserts)>
+	<!--ChickenMenu-->
+	<!ELEMENT ChickenMenu (dish+)>
+	<!ELEMENT dish (name, description, category, calories, preparingTime, ingredients, price, imagen)>
+	<!ATTLIST dish  cod (CM1 | CM2 | CM3 | CM4 | CM5 | CM6 | CM7 | CM8 |VG1 | VG2 | VG3 | VG4 |SLD1 | SLD2 | SLD3 | SLD4 | DST1 | DST2 | DST3 | DST4) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT calories (#PCDATA)>
+	<!ELEMENT preparingTime (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT imagen (#PCDATA)>
+	<!--VeganMenu-->
+	<!ELEMENT VeganMenu (dish+)>
+	<!ELEMENT dish (name, description, category, calories, preparingTime, ingredients, price, imagen)>
+	<!ATTLIST dish  cod (VG1 | VG2 | VG3 | VG4) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT calories (#PCDATA)>
+	<!ELEMENT preparingTime (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT imagen (#PCDATA)>
+	<!--Salads-->
+	<!ELEMENT Salads (dish+)>
+	<!ELEMENT dish (name, description, category, calories, preparingTime, ingredients, price,imagen)>
+	<!ATTLIST dish  cod (SLD1 | SLD2 | SLD3 | SLD4) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT calories (#PCDATA)>
+	<!ELEMENT preparingTime (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT imagen (#PCDATA)>
+	<!--Desserts--> 
+	<!ELEMENT Desserts (dish+)>
+	<!ELEMENT dish (name, description, category, calories, preparingTime, ingredients, price, imagen)>
+	<!ATTLIST dish  cod (DST1 | DST2 | DST3 | DST4) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT category (#PCDATA)>
+	<!ELEMENT calories (#PCDATA)>
+	<!ELEMENT preparingTime (#PCDATA)>
+	<!ELEMENT ingredients (#PCDATA)>
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT imagen (#PCDATA)>
+	<!--Spa and care services-->
+	<!ELEMENT spaCare (service+)>
+	<!ELEMENT service (name, description, duration, price, discount?,imagen)>
+	<!ATTLIST service  codigo (Spa1 | Spa2 | Spa3) #REQUIRED >
+	<!ELEMENT name (#PCDATA)>
+	<!ELEMENT description (#PCDATA)>
+	<!ELEMENT duration (#PCDATA)>
+	<!ATTLIST duration measure (hours) #REQUIRED >
+	<!ELEMENT price (#PCDATA)>
+	<!ATTLIST price currency (euro) #REQUIRED >
+	<!ELEMENT discount (#PCDATA)>
+	<!ELEMENT imagen (#PCDATA)>
+	]>
+<heavenHotel><!-- xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"  xs:noNamespaceSchemaLocation="../Schema/index.xsd"-->
+	<VAT>1.2</VAT>
+	<roomRent>
+		<!--The rooms of type luxury-->
+		<rooms type="luxury">
+			<room id="president">
+				<bedroom>1 president size bed</bedroom>
+				<kitchen>All inclusive</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">359</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room10.jpg</imagen> 
+			</room>
+			<room id="president">
+				<bedroom>1 president size bed</bedroom>
+				<kitchen>All inclusive</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">359</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room8.jpg</imagen> 
+			</room>
+			<room id="king">
+				<bedroom>1 king size bed</bedroom>
+				<kitchen>All inclusive</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">296</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room11.jpg</imagen> 
+			</room>
+			<room id="king">
+				<bedroom>1 king size bed</bedroom>
+				<kitchen>All inclusive</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">289</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room6.jpg</imagen> 
+			</room>
+			<room id="business">
+				<bedroom>1 large size bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">254</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room4.jpg</imagen> 
+			</room>
+			<room id="business">
+				<bedroom>1 large size bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">253</price>
+				<discount>0.1</discount>
+				<imagen pagina="www.nh-hoteles.es">room12.jpg</imagen> 
+			</room>
+		</rooms>
+		<!--The rooms of type standard-->
+		<rooms type="standard">
+			<room id="single">
+				<bedroom>1 large bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">159</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room14.jpg</imagen> 
+			</room>
+			<room id="single">
+				<bedroom>1 large double bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning  id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">148</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room2.jpg</imagen> 
+			</room>
+			<room id="double">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">189</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room5.jpg</imagen> 
+			</room>
+			<room id="double">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">169</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room13.jpg</imagen> 
+			</room>
+			<room id="triple">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">219</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room3.jpg</imagen> 
+			</room>
+			<room id="triple">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast and lunch included</kitchen>
+				<airConditioning id="Yes"></airConditioning>
+				<roomsService>From 06:00 till 22:00</roomsService>
+				<price currency="euro">199</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room15.jpg</imagen> 
+			</room>
+		</rooms>
+		<!--The rooms of type economy-->
+		<rooms type="economy">
+			<room id="single">
+				<bedroom>1 large single bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">89</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room9.jpg</imagen> 
+			</room>
+			<room id="single">
+				<bedroom>1 large single bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">93</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room7.jpg</imagen> 
+			</room>
+			<room id="double">
+				<bedroom>1 large double bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">113</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room16.jpg</imagen> 
+			</room>
+			<room id="double">
+				<bedroom>1 large double bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">127</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room1.jpg</imagen> 
+			</room>
+			<room id="triple">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">135</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room17.jpg</imagen> 
+			</room>
+			<room id="triple">
+				<bedroom>1 large double bed, 1 single bed</bedroom>
+				<kitchen>Breakfast included</kitchen>
+				<airConditioning id="No"></airConditioning>
+				<roomsService>Not included</roomsService>
+				<price currency="euro">148</price>
+				<discount>0.15</discount>
+				<imagen pagina="www.nh-hoteles.es">room18.jpg</imagen> 
+			</room>
+		</rooms>
+	</roomRent>
+	<restaurant>
+		<ChickenMenu>
+			<dish cod="CM1">
+				<name>Teriyaki chicken</name>
+				<description>Crispy skinless chicken thighs stir-fried and swimming in a beautiful flavoured homemade teriyaki sauce.</description>
+				<category>Quick and Easy</category>
+				<calories>389</calories>
+				<preparingTime>40 min</preparingTime>
+				<ingredients>Chicken, honey, parsley, sesame</ingredients>
+				<price currency="euro">12.35</price>
+				<imagen pagina="www.jamieoliver.com">chicken1.jpg</imagen>
+			</dish>
+			<dish cod="CM2">
+				<name>Chicken Rolls</name>
+				<description>Flaky pastry pesto chicken</description>
+				<category>Quick and Easy</category>
+				<calories>345</calories>
+				<preparingTime>23 min</preparingTime>
+				<ingredients>Chicken, feta cheese, onion, parsley</ingredients>
+				<price currency="euro">14.90</price>
+				<imagen pagina="www.jamieoliver.com">chicken2.jpg</imagen>
+			</dish>
+			<dish cod="CM3">
+				<name>Chicken with Spinach</name>
+				<description>A spicy, smoky, sizzling chicken breast packed with flavour. ”</description>
+				<category>Quick and Easy</category>
+				<calories>387</calories>
+				<preparingTime>28 min</preparingTime>
+				<ingredients>Chicken, spinach, parsley</ingredients>
+				<price currency="euro">12.55</price>
+				<imagen pagina="www.jamieoliver.com">chicken3.jpg</imagen>
+			</dish>
+			<dish cod="CM4">
+				<name>Chicken Drumsticks</name>
+				<description>Chicken thighs that are crispy and gnarly on the outside,but tender inside</description>
+				<category>Gluten Free</category>
+				<calories>415</calories>
+				<preparingTime>42 min</preparingTime>
+				<ingredients>Chicken, honey, sugar, tomato</ingredients>
+				<price currency="euro">15.95</price>
+				<imagen pagina="www.jamieoliver.com">chicken4.jpg</imagen>
+			</dish>
+			<dish cod="CM5">
+				<name>Barbecue Chicken</name>
+				<description>These smoky scallops are a real treat for the barbecue, and a beautiful taste of summer</description>
+				<category>Dairy Free</category>
+				<calories>209</calories>
+				<preparingTime>35 min</preparingTime>
+				<ingredients>Chicken, onion, pepper, cauliflower</ingredients>
+				<price currency="euro">10.85</price>
+				<imagen pagina="www.jamieoliver.com">chicken5.jpg</imagen>
+			</dish>
+			<dish cod="CM6">
+				<name>Chicken Pizza</name>
+				<description>A drizzle of sweet honey in the pizza dough and a sprinkle of chicken on top are a killer combo</description>
+				<category>Italian</category>
+				<calories>420</calories>
+				<preparingTime>50 min</preparingTime>
+				<ingredients>Pastry, chicken, tomato, cheese, onion, mushrooms, parsley</ingredients>
+				<price currency="euro">13.75</price>
+				<imagen pagina="www.jamieoliver.com">chicken6.jpg</imagen>
+			</dish>
+			<dish cod="CM7">
+				<name>Chicken Lasagna</name>
+				<description>A stacked layers of long noodles, sauce, cheese, and meat makes every bite come alive with flavor.</description>
+				<category>Quick and Easy</category>
+				<calories>369</calories>
+				<preparingTime>45 min</preparingTime>
+				<ingredients>Chicken, lasagna noodles, tomato, cheese</ingredients>
+				<price currency="euro">11.69</price>
+				<imagen pagina="www.jamieoliver.com">chicken7.jpg</imagen>
+			</dish>
+			<dish cod="CM8">
+				<name>Chicken Rice</name>
+				<description>Sumptuous, comforting, melt-in-your-mouth chicken, gentle spice and delicious, buttery rice.</description>
+				<category>Gluten Free</category>
+				<calories>299</calories>
+				<preparingTime>1 hour 15 min</preparingTime>
+				<ingredients>Chicken, rice, pepper</ingredients>
+				<price currency="euro">15.85</price>
+				<imagen pagina="www.jamieoliver.com">chicken8.jpg</imagen>
+			</dish>
+		</ChickenMenu>
+		<VeganMenu>
+			<dish cod="VG1">
+				<name>Dried Tomatoes Pasta</name>
+				<description>Chunky spaghetti pasta is great for catching the lovely flavours of the peppers and mascarpone</description>
+				<category>Pasta, Italian</category>
+				<calories>620</calories>
+				<preparingTime>22 min</preparingTime>
+				<ingredients>Pasta, tomatoes, goat cheese, onion</ingredients>
+				<price currency="euro">16.89</price>
+				<imagen pagina="www.jamieoliver.com">vegan2.jpg</imagen>
+			</dish>
+			<dish cod="VG2">
+				<name>Grilled Spinach</name>
+				<description>This fancy pasta dish is even more delicious than it sounds. It’s well worth the extra effort for someone special </description>
+				<category>Vegetarian, Italian</category>
+				<calories>465</calories>
+				<preparingTime>45 min</preparingTime>
+				<ingredients>Spinach, flour, eggs, tomato, chili</ingredients>
+				<price currency="euro">18.96</price>
+				<imagen pagina="www.jamieoliver.com">vegan3.png</imagen>
+			</dish>
+			<dish cod="VG3">
+				<name>Vegan Tortilla</name>
+				<description></description>
+				<category>Vegetarian, Mexican</category>
+				<calories>480</calories>
+				<preparingTime>18 min</preparingTime>
+				<ingredients>Tortilla wrap, paprika, pepper, onion</ingredients>
+				<price currency="euro">12.30</price>
+				<imagen pagina="www.jamieoliver.com">vegan4.jpg</imagen>
+			</dish>
+			<dish cod="VG4">
+				<name>Vegetables Pasta</name>
+				<description>Vibrant homemade pasta that's super-fun to make and packed with nutritious spinach.</description>
+				<category>Pasta, Vegetarian</category>
+				<calories>402</calories>
+				<preparingTime>32 min</preparingTime>
+				<ingredients>Pasta, garlic, tomato, spinach, olives, onion</ingredients>
+				<price currency="euro">16.45</price>
+				<imagen pagina="www.jamieoliver.com">vegan1.jpg</imagen>
+			</dish>
+		</VeganMenu>
+		<Salads>
+			<dish cod="SLD1">
+				<name>Beef Salad</name>
+				<description>bla-bla-bla</description>
+				<category>Meat, party food</category>
+				<calories>450</calories>
+				<preparingTime>20</preparingTime>
+				<ingredients>Beef, salad leavs, tomatoes</ingredients>
+				<price currency="euro">9.50</price>
+				<imagen pagina="www.jamieoliver.com">salad2.jpg</imagen>
+			</dish>
+			<dish cod="SLD2">
+				<name>Chicken and Apple Salad</name>
+				<description>bla-bla-bla</description>
+				<category>Fast food</category>
+				<calories>320</calories>
+				<preparingTime>20</preparingTime>
+				<ingredients>Chicken, apple, tomatoes, cheese</ingredients>
+				<price currency="euro">8.75</price>
+				<imagen pagina="www.jamieoliver.com">salad3.jpg</imagen>
+			</dish>
+			<dish cod="SLD3">
+				<name>Red Beans Salad</name>
+				<description>bla-bla-bla</description>
+				<category>Fast food</category>
+				<calories>395</calories>
+				<preparingTime>25</preparingTime>
+				<ingredients>Beans, cucumberg, onion</ingredients>
+				<price currency="euro">10.5</price>
+				<imagen pagina="www.jamieoliver.com">salad4.jpg</imagen>
+			</dish>
+			<dish cod="SLD4">
+				<name>Olive Salad</name>
+				<description>bla-bla-bla</description>
+				<category>Vegetarian</category>
+				<calories>240</calories>
+				<preparingTime>10</preparingTime>
+				<ingredients>Olives, cheese, salad, tomatoes</ingredients>
+				<price currency="euro">9.45</price>
+				<imagen pagina="www.jamieoliver.com">salad5.jpg</imagen>
+			</dish>
+		</Salads>
+		<Desserts>
+			<dish cod="DST1">
+				<name>Profiteroles</name>
+				<description>These might seem fiddly, but they’ll make your party one to remember.</description>
+				<category>Party food, chocolate</category>
+				<calories>223</calories>
+				<preparingTime>45 min</preparingTime>
+				<ingredients>Pastry, cream, yoghurt, sugar</ingredients>
+				<price currency="euro">9.63</price>
+				<imagen pagina="www.jamieoliver.com">desert1.jpg</imagen>
+			</dish>
+			<dish cod="DST2">
+				<name>Pavlova dessert</name>
+				<description>When you find a punnet of perfectly ripe strawberries, showcase them in this irresistible summer dessert</description>
+				<category>Fruit, Dinner party</category>
+				<calories>510</calories>
+				<preparingTime>50 min</preparingTime>
+				<ingredients>Egg whites, white chocolate, sugar, fruits</ingredients>
+				<price currency="euro">12.45</price>
+				<imagen pagina="www.jamieoliver.com">desert2.jpg</imagen>
+			</dish>
+			<dish cod="DST3">
+				<name>Chocolate cake</name>
+				<description>This cake is pure indulgence. If you can get your hands on some bee pollen, I highly recommend it for its intense burst of honey flavours and satisfying crunch.</description>
+				<category>Chocolate, Party-food</category>
+				<calories>346</calories>
+				<preparingTime>40 min</preparingTime>
+				<ingredients>Flour, pecan nuts, cacao powder, chocolate</ingredients>
+				<price currency="euro">13.85</price>
+				<imagen pagina="www.jamieoliver.com">desert3.jpg</imagen>
+			</dish>
+			<dish cod="DST4">
+				<name>Cheese cake</name>
+				<description>This cheesecake tastes as good as it looks. The ombré effect makes a great centrepiece – your friends will never guess how easy it is to make! </description>
+				<category>Party food, Fruits</category>
+				<calories>486</calories>
+				<preparingTime>45 min</preparingTime>
+				<ingredients>Biscuits, cream cheese, butter, blackberry jam</ingredients>
+				<price currency="euro">16.45</price>
+				<imagen pagina="www.jamieoliver.com">desert4.jpg</imagen>
+			</dish>
+		</Desserts>
+	</restaurant>
+	<spaCare>
+		<service codigo="Spa1">
+			<name>Hair treatment</name>
+			<description>we offer a wide range of treatments for all hair types and help you to select a treatment that’s right for you.</description>
+			<duration measure="hours">1.5</duration>
+			<price currency="euro">46.9</price>
+			<discount>0.15</discount>
+			<imagen pagina="www.visionsspasalon.com">salon2.jpg</imagen>
+		</service>
+		<service codigo="Spa2">
+			<name>Manicure</name>
+			<description>We offer two types of mani-pedi, perfect whether you're on the go or have the time for some extra pampering.</description>
+			<duration measure="hours">0.6</duration>
+			<price currency="euro">35</price>
+			<discount>0.10</discount>
+			<imagen  pagina="www.visionsspasalon.com">salon3.jpeg</imagen>
+		</service>
+		<service codigo="Spa3">
+			<name>Massage and relax</name>
+			<description>We believe that happiness is the key foundations for wellness - and that's what our treatments are all about.</description>
+			<duration measure="hours">2.5</duration>
+			<price currency="euro">55</price>
+			<discount>0.15</discount>
+			<imagen pagina="www.visionsspasalon.com">salon4.jpg</imagen>
+		</service>
+	</spaCare>
+</heavenHotel>

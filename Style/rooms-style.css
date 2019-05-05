@@ -1,0 +1,212 @@
+
+/* The navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 139, 140);
+    position: sticky;
+    top: 0;
+	font-family: Montserrat,Georgia,serif;
+	z-index: 1;
+}
+.logo {
+	padding-left: 50px;
+	padding-right: 120px;
+	font-size: 25px;
+
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin-top: 15px;
+	float: left;
+	
+}
+.navbar a:hover {
+	color: orange;
+}
+/*proprieties to center the video*/
+.center{
+	margin: 0 auto;
+	width: 100%;
+}
+/*The expanding grid section*/
+* {
+    box-sizing: border-box;
+}
+.column {
+    float: left;
+	padding: 10px;
+}
+.left {
+    width: 20%;
+	background-color:#aaa;
+}
+.right {
+	width: 80%;
+	background-color:#bbb;
+}
+
+
+/*Styling for the left part of the table*/
+.table ul {
+	list-style: none; /* Remove bullets */
+	padding: 0; /* Remove padding */
+	margin: 0; /* Remove margins */
+}
+.table li {
+  border: 1px solid #ddd; /* Add a thin border to each list item */
+  margin-top: -1px; /* Prevent double borders */
+  padding: 7px; /* Add some padding */
+}
+/* Style the buttons that filter the types of rooms*/
+.btn {
+  border: none; 
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #aaa;
+}
+.btn:hover {
+  background-color: rgb(14, 139, 140);
+}
+
+.btn.active {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color:rgb(14, 139, 140);
+}
+.filterDiv {
+  line-height: 100px;
+  text-align: center;
+  display: none;
+
+}
+
+.show {
+  display: block;
+}
+/*the button going to the top of the page*/
+.up {
+	position: sticky;
+	top: 50%;
+	left: 0;
+	width: 70px;
+	height: 50px;
+	padding-left: 20px;
+}
+/*styling for the right part of the table*/
+.container {
+    overflow: hidden;
+	
+}
+.fill {
+  position: relative; 
+  max-width: 850px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+img {
+	height: 350px;
+}
+
+.about {
+  position: absolute; /* Position the background text */
+  bottom:45px; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.4); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 5px; /* Some padding */
+  height: 22%;
+}
+/*button for booking a room*/
+.fill .btn {
+    position: absolute;
+    right: 2px;
+    top: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #888;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+	float: right;
+}
+
+.fill .btn:hover {
+    background-color: rgb(14, 139, 140);
+}
+* {
+    box-sizing: border-box;
+}
+/* Create two equal columns that floats next to each other */
+.vertical {
+    float: left;
+    width: 33%;
+    padding: 10px;
+}
+
+.vertical img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.line:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+	text-align: center;
+	background-color: rgb(14, 139, 140);
+	opacity: 0.7;
+	height: 75px;
+	padding: 8px;
+	padding-right: 75px;
+}
+span {
+	float: left;
+	padding: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 70px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: right;
+    border-radius: 15%;
+
+}
+
+.fa:hover {
+	border: 1px solid black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

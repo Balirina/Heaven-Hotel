@@ -1,0 +1,206 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Montserrat,Georgia,serif;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  background-image: url("../Images/salon.jpg");
+  filter: blur(5px);  /* Add the blur effect */
+  height: 100%; /* Full height */
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+/* The navigation bar */
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(14, 139, 140);
+    position: sticky;
+    top: 0;
+	font-family: Montserrat,Georgia,serif;
+	z-index: 999;
+}
+.logo {
+	padding-left: 50px;
+	padding-right: 120px;
+	font-size: 25px;
+
+}
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	margin-top: 15px;
+	float: left;
+	
+}
+#navbar a:hover {
+	color: orange;
+}
+/*the image posotioned to the left of the text*/
+.imgaside {
+	float: left;
+	margin-right: 35px;
+	margin-left: 35px;
+	width:520px; 
+	height:300px;
+}
+.imgasideleft {
+	float: right;
+	margin-right: 35px;
+	margin-left: 35px;
+	width:520px; 
+	height:300px;
+}
+/*the text and the image in the same section*/
+.clearfix {
+	text-align: center;
+    overflow: auto;
+	font-family: Montserrat,Georgia,serif;
+	padding: 15px;
+	
+}
+
+/*the buttons going to the form*/
+.btn {
+  background-color: #A0A0A0;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 250px;
+  opacity: 0.9;
+  border-radius: 15%;
+
+}
+
+.btn:hover {
+  opacity: 1;
+  background-color:rgb(14, 139, 140);
+}
+/*form*/
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 600px;
+  padding: 10px;
+  background-color:#d1d1d1 ;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: rgb(14, 139, 140);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: rgb(255, 102, 102);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+footer {
+	text-align: center;
+	background-color: rgb(14, 139, 140);
+	opacity: 0.7;
+	height: 75px;
+	padding: 8px;
+	padding-right: 75px;
+	
+}
+span {
+	padding: 20px;
+}
+footer span{
+	float: left;
+	padding: 20px;
+}
+.fa {
+  padding: 20px;
+  font-size: 70px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  float: right;
+   border-radius: 15%;
+
+}
+
+.fa:hover {
+	border: 1px solid black;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}

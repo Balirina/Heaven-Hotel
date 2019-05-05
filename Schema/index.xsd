@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="heavenHotel">
+	<xs:complexType>
+			<xs:sequence>
+				<xs:element name="VAT" type="xs:string"/>	
+				<xs:element name="roomRent" type="Renttype"/>
+				<xs:element name="restaurant" type="restauranttype"/>
+				<xs:element name="spaCare" type="spaCaretype"/>
+			</xs:sequence>
+	</xs:complexType>
+</xs:element>
+	
+	<xs:complexType name="Renttype">
+		<xs:sequence>
+				<xs:element name="rooms" type="habitactype" minOccurs="1" maxOccurs="unbounded"/>				
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="habitactype">
+		<xs:sequence>
+			<xs:element name="room" type="roomtype" minOccurs="1" maxOccurs="unbounded"/>	
+		</xs:sequence>
+			<xs:attribute name="type" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="roomtype">
+		<xs:sequence>
+			<xs:element name="bedroom" type="xs:string"/>	
+			<xs:element name="kitchen">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="All inclusive"/>
+						<xs:enumeration value="Breakfast and lunch included"/>
+						<xs:enumeration value="Breakfast included"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="airConditioning" type="airCondtype"/>	
+			<xs:element name="roomsService" type="xs:string"/>	
+			<xs:element name="price" type="pricetype"/>	
+			<xs:element name="discount">	
+				<xs:simpleType>
+					<xs:restriction base="xs:decimal">
+						<xs:minInclusive value="0.0"/>
+						<xs:maxInclusive value="0.3"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="imagen" type="imagentype"/>
+		</xs:sequence>
+		<xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="airCondtype">
+		<xs:attribute name="id" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="imagentype">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="pagina" type="xs:string"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="pricetype">
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="currency" type="xs:string" fixed="euro"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="restauranttype">
+		<xs:sequence>
+			<xs:element name="ChickenMenu" type="ChickenMenutype"/>
+			<xs:element name="VeganMenu" type="VeganMenutype"/>
+			<xs:element name="Salads" type="Saladstype"/>
+			<xs:element name="Desserts" type="Dessertstype"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="ChickenMenutype">
+		<xs:sequence>
+			<xs:element name="dish" type="dishtype"  minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="dishtype">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="description" type="xs:string"/>
+			<xs:element name="category" type="xs:string"/>
+			<xs:element name="calories">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9][0-9][0-9]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="preparingTime" type="xs:string"/>
+			<xs:element name="ingredients" type="xs:string"/>
+			<xs:element name="price" type="pricetype"/>
+			<xs:element name="imagen" type="imagentype"/>
+		</xs:sequence>
+		<xs:attribute name="cod" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+	<xs:complexType name="VeganMenutype">
+		<xs:sequence>
+			<xs:element name="dish" type="dishtype"  minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Saladstype">
+		<xs:sequence>
+			<xs:element name="dish" type="dishtype"  minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="Dessertstype">
+		<xs:sequence>
+			<xs:element name="dish" type="dishtype"  minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="spaCaretype">
+		<xs:sequence>
+			<xs:element name="service" type="servicetype" minOccurs="1" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType> 
+	
+	<xs:complexType name="servicetype">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="description" type="xs:string"/>
+			<xs:element name="duration" type="durationtype"/>
+			<xs:element name="price" type="pricetype"/>
+			<xs:element name="discount" type="xs:decimal"/>
+			<xs:element name="imagen" type="imagentype"/>
+		</xs:sequence>
+		<xs:attribute name="codigo" type="xs:string" use="required"/>
+	</xs:complexType>
+	
+
+	<xs:complexType name="durationtype">
+		<xs:simpleContent>
+			<xs:extension base="xs:decimal">
+				<xs:attribute name="measure" type="xs:string" fixed="hours"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:schema>
